@@ -10,6 +10,6 @@ Usage:
 
 python3 server.py & python3 server1.py
 
-gcc -o poc -lsctp
+gcc -o poc poc.c -lsctp
 
 ./poc
